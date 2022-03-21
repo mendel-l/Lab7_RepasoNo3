@@ -10,6 +10,6 @@ namespace Lab7_RepasoNo3
     {
         public string NoCasa { get; set; } 
         public string DpiOwner { get; set; }
-        public string CuotaMantenimiento { get; set; } 
+        public decimal CuotaMantenimiento { get; set; } 
     }
 }

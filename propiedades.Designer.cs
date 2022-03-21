@@ -37,9 +37,8 @@
             this.buttonIngresar = new System.Windows.Forms.Button();
             this.dataGridViewPropiedades = new System.Windows.Forms.DataGridView();
             this.comboBoxDPIOwner = new System.Windows.Forms.ComboBox();
-            this.numericUpDownCuotaMantenimiento = new System.Windows.Forms.NumericUpDown();
+            this.textBoxCuotaMantenimiento = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPropiedades)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCuotaMantenimiento)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonExit
@@ -127,20 +126,20 @@
             this.comboBoxDPIOwner.Size = new System.Drawing.Size(150, 24);
             this.comboBoxDPIOwner.TabIndex = 28;
             // 
-            // numericUpDownCuotaMantenimiento
+            // textBoxCuotaMantenimiento
             // 
-            this.numericUpDownCuotaMantenimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDownCuotaMantenimiento.Location = new System.Drawing.Point(61, 153);
-            this.numericUpDownCuotaMantenimiento.Name = "numericUpDownCuotaMantenimiento";
-            this.numericUpDownCuotaMantenimiento.Size = new System.Drawing.Size(150, 22);
-            this.numericUpDownCuotaMantenimiento.TabIndex = 29;
+            this.textBoxCuotaMantenimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCuotaMantenimiento.Location = new System.Drawing.Point(61, 153);
+            this.textBoxCuotaMantenimiento.Name = "textBoxCuotaMantenimiento";
+            this.textBoxCuotaMantenimiento.Size = new System.Drawing.Size(150, 22);
+            this.textBoxCuotaMantenimiento.TabIndex = 30;
             // 
             // propiedades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(434, 411);
-            this.Controls.Add(this.numericUpDownCuotaMantenimiento);
+            this.Controls.Add(this.textBoxCuotaMantenimiento);
             this.Controls.Add(this.comboBoxDPIOwner);
             this.Controls.Add(this.textBoxNoHouse);
             this.Controls.Add(this.buttonIngresar);
@@ -154,7 +153,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Propiedades";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPropiedades)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCuotaMantenimiento)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -171,6 +169,6 @@
         private System.Windows.Forms.Button buttonIngresar;
         private System.Windows.Forms.DataGridView dataGridViewPropiedades;
         private System.Windows.Forms.ComboBox comboBoxDPIOwner;
-        private System.Windows.Forms.NumericUpDown numericUpDownCuotaMantenimiento;
+        private System.Windows.Forms.TextBox textBoxCuotaMantenimiento;
     }
 }

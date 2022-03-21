@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lab7_RepasoNo3
 {
-    internal class Total
+    internal class Resumen
     {
         public string Name { get; set; }
         public string LastName { get; set; }
         public string NoHouse { get; set; }
-        public string PaySuport { get; set; }
+        public decimal PaySuport { get; set; }
     }
 }

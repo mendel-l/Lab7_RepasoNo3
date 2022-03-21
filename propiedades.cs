@@ -67,7 +67,7 @@ namespace Lab7_RepasoNo3
                 var dato = new Propiedad();
                 dato.NoCasa = partes[0];
                 dato.DpiOwner = partes[1];
-                dato.CuotaMantenimiento = partes[2];
+                dato.CuotaMantenimiento = decimal.Parse(partes[2]);
 
                 Propiedades.Add(dato);
             }
@@ -85,7 +85,7 @@ namespace Lab7_RepasoNo3
             Propiedad prop = new Propiedad();
             prop.NoCasa = textBoxNoHouse.Text;
             prop.DpiOwner = comboBoxDPIOwner.Text;
-            prop.CuotaMantenimiento = Convert.ToString(numericUpDownCuotaMantenimiento.Value);
+            prop.CuotaMantenimiento = Convert.ToDecimal(textBoxCuotaMantenimiento.Text);
 
             Propiedades.Add(prop);
 
@@ -106,7 +106,7 @@ namespace Lab7_RepasoNo3
             textBoxNoHouse.Text = numeros;
 
             comboBoxDPIOwner.Text = "";
-            numericUpDownCuotaMantenimiento.Value = 0;
+            textBoxCuotaMantenimiento.Text = "";
 
             SaveTxtPropiedades();
             ActualizarGridPropiedades();
